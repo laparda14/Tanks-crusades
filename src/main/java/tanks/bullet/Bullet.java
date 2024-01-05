@@ -140,7 +140,7 @@ public class Bullet extends Movable implements IDrawableLightSource
 	public ItemBullet item;
 
 	@BulletProperty(id = "max_live_bullets", name = "Max live bullets", category = BulletProperty.Category.firing)
-	public int maxLiveBullets = 5;
+	public int maxLiveBullets = 10;
 
 	@BulletProperty(id = "cooldown", name = "Cooldown", category = BulletProperty.Category.firing)
 	public double cooldown = 20;
